@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    height: 100%;
+    width: 6%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.page {
+    width: 95%;
+    float: right;
+}
+
+.chatoverflow {
+    overflow: scroll;
+}
+
+.gap {
+    padding-top: 9%;
+}
+
+.iptxt {
+    position: fixed;
+    bottom: 0%;
+    width: 121.6%;
+}
+
+@media only screen and (max-width: 912px) {
+    .iptxt {
+        width: 95%;
+        left: 16%;
+    }
+    .gap {
+        margin-top: auto;
+        padding-top: 27%;
+    }
+    .page {
+        position: absolute;
+        left: 16%;
+    }
+    .nav {
+        width: 100%;
+        font-size: 2rem;
+        position: fixed;
+    }
+}
