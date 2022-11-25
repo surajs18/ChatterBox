@@ -8,7 +8,7 @@ Setup and run guide:
 3. Create a collection named ChatterBox with no encryption.
 	(If mongodb setup is done in differently than mentioned above please update the same in server.js file.)
 
-4. Install nodejs on your local machine.
+4. Install nodejs v14.18.1 with npm v8.19.2 on your local machine.
 5. Once the setup is ready as mentioned above get into the folder ChatterBox.
 6. Use any command line and type:
 		npm run watch
